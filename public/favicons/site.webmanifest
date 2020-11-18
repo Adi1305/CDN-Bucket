@@ -1,0 +1,41 @@
+{
+  "name": "",
+  "short_name": "Blog Spot",
+  "description": "Publish your creativity in your way, Whether it is knowledge, experience or news.",
+  "lang": "en-IN",
+  "start_url": "https://blogspotforu.herokuapp.com/",
+  "scope": "https://blogspotforu.herokuapp.com/",
+  "display": "standalone",
+  "theme_color": "#1abc9c",
+  "prefer_related_applications": true,
+
+  "icons": [
+    {
+      "src": "https://s8j8i9p4.hostrycdn.com/favicons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "apple-touch-icon"
+    },
+    {
+      "src": "https://s8j8i9p4.hostrycdn.com/favicons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://s8j8i9p4.hostrycdn.com/favicons/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://s8j8i9p4.hostrycdn.com/favicons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "https://s8j8i9p4.hostrycdn.com/favicons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#1abc9c"
+}

@@ -1,0 +1,23 @@
+.btn-danger{
+  margin-left: 20px;
+  border-color: #dc3545;
+  outline-color: #dc3545;
+
+}
+/* .delete-request{
+  display: inline-flex;
+} */
+.btn{
+  margin-left: 20px;
+
+}
+
+.btn-disable{
+  cursor: not-allowed;
+pointer-events: none;
+
+color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    opacity: .65;
+}
