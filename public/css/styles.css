@@ -105,7 +105,7 @@ div.text {
 .logo {
   height: 40px;
   width: 40px;
-  background-image: url(/images/google.svg);
+  background-image: url(https://cdn.jsdelivr.net/gh/Adi1305/cdn-bucket@master/public/images/google.svg);
   background-size: contain
 }
 

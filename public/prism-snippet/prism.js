@@ -12710,7 +12710,7 @@ Prism.plugins.toolbar.registerButton('hello-world', {
 	text: 'Dark Mode', // required
 	onClick: function (env) { // optional
         // alert('This code snippet is written in ' + env.language + '.');
-        document.getElementById("changeOnClick").href = "/prism-snippet/prism-dark.css";
+        document.getElementById("changeOnClick").href = "https://cdn.jsdelivr.net/gh/Adi1305/cdn-bucket@master/public/prism-snippet/prism-dark.css";
     
    
 }
@@ -12722,7 +12722,7 @@ Prism.plugins.toolbar.registerButton('hello-world2', {
 	text: 'Light Mode', // required
 	onClick: function (env) { // optional
         // alert('This code snippet is written in ' + env.language + '.');
-        document.getElementById("changeOnClick").href = "/prism-snippet/prism.css";
+        document.getElementById("changeOnClick").href = "https://cdn.jsdelivr.net/gh/Adi1305/cdn-bucket@master/public/prism-snippet/prism.css";
     
    
 }
