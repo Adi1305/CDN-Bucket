@@ -108,7 +108,9 @@ div.text {
   background-image: url(https://cdn.jsdelivr.net/gh/Adi1305/cdn-bucket@master/public/images/google.svg);
   background-size: contain
 }
-
+/* .tox-tinymce--toolbar-sticky-on{
+  color: red;
+} */
 .btn:hover>.fa-google {
   transition: .5s;
   transform: rotate(360deg)
@@ -254,13 +256,31 @@ html {
 }
 
 body {
-  padding-top: 100px;
+
   margin: 0;
   font-family: "SF Pro Display"height: 100%;
   background-color: #fbf7f0;
   color: #2F3C4A;
 
 }
+.boldAnchor{
+font-weight: bold;
+color: #4285f4;
+
+}
+.boldAnchor:hover{
+  text-decoration: bold;
+  color: #1abc9c;
+ }
+.underlinedAnchor{
+  text-decoration: underline;
+  color: #4285f4;
+}
+.underlinedAnchor:hover{
+  color: #1abc9c;
+  text-decoration: underline;
+}
+
 .prevent-ios{
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -447,7 +467,6 @@ z-index: 2;
 .task {
   background-color: #e8e8e8;
   /* background-color: #000; */
-
   opacity: .9;
 }
 .mceEditor td.mceIframeContainer iframe {
