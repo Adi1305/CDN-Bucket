@@ -1,0 +1,44 @@
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width: 100%;
+}
+}
+
+.cont{
+    top: 0;
+    text-align: center;
+     /* margin-bottom: 800px; */
+       scroll-behavior: smooth;
+    padding: 10% 15% 60% 10%;
+font-size: 1.2rem;
+    position: relative;
+  
+       
+  }
+  .cont2{
+    text-align: center;
+     margin-bottom: 0;
+    padding: 10% 15% 100% 10%;
+
+       scroll-behavior: smooth;
+    padding: 10% 15% 10% 10%;
+
+  
+       
+  }
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+      padding-right: 0;
+      padding-left: 0;
+      margin-right: 0;
+      margin-left: 0;
+  
+  }
+  .color{
+      background-color: #fbf7f0;
+  }
+
+ 
+  html{
+    scroll-behavior: smooth
+  }
