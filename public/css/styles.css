@@ -3,7 +3,10 @@
   src: url(/fonts/0b51833ff62e4af8acb5fd3e2bf59e97.eot);
   src: url(/fonts/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix) format("embedded-opentype"), url(/fonts/0b51833ff62e4af8acb5fd3e2bf59e97.woff2) format("woff2"), url(/fonts/0b51833ff62e4af8acb5fd3e2bf59e97.woff) format("woff"), url(/fonts/0b51833ff62e4af8acb5fd3e2bf59e97.ttf) format("truetype"), url(/fonts/font.svg) format("svg")
 }
-
+*, html, body { 
+  padding: 0px;
+  margin: 0px;
+}
 
 .my{
 display: inline-block;
@@ -251,8 +254,8 @@ input{
 }
 
 html {
-  min-height: 100%;
-  position: relative
+  /* min-height: 100%; */
+  /* position: relative */
 }
 
 body {
@@ -305,7 +308,7 @@ color: #4285f4;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 12rem;
+  height: 15rem;
   background-color: #1abc9c
 }
 
@@ -491,6 +494,40 @@ z-index: 2;
 .dark-mode{
   background-color: #282c34;
   color: #fff;
+}
+
+.cookie{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  border-radius: 5%;
+  text-align: left;
+  padding: 20px;
+  position: fixed;
+  bottom: 15rem;
+right: 15px;
+z-index: 152;
+background-color: #fbf7f0 ;
+}
+
+.cookie:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+.cookie-img{
+  margin-bottom: 80px;
+  margin-left: 15px;
+}
+.cookie-link{
+  text-decoration: underline;
+  color: #2F3C4A;
+}
+.cookie-link:hover{
+  text-decoration: underline;
+  color: #000;
+}
+/* Add some padding inside the card container */
+.cookie-container {
+  padding: 2px 16px;
 }
 
 /* test */
